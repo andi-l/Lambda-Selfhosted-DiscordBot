@@ -1,0 +1,30 @@
+- name: info
+  description: Display information about the bot creator.
+
+- name: spreadsheet
+  description: Get the spreadsheet link.
+
+- name: register
+  description: Get the registration link.
+
+- name: search
+  description: Search for items in the catalog
+  options:
+    - name: category
+      description: Area of search (e.g., Shoes, Clothes, Accessories, Popular)
+      type: 3
+      required: true
+      choices:
+        - name: Shoes
+          value: shoes
+        - name: Clothes
+          value: clothes
+        - name: Accessories
+          value: accessories
+        - name: Popular
+          value: popular
+
+    - name: keywords
+      description: Keywords to search for (e.g., "White Shoes")
+      type: 3
+      required: true

@@ -1,0 +1,14 @@
+imagetk-0.1.2.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+imagetk-0.1.2.dist-info/METADATA,sha256=RaspxEXWFyT9GduXCGJqqSjqNVUmx5DTi7g2W9HFu1o,2943
+imagetk-0.1.2.dist-info/RECORD,,
+imagetk-0.1.2.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imagetk-0.1.2.dist-info/WHEEL,sha256=3FNOzWH49S9xlyW5kytslWcRN_cI_Pw_NSKs5sAOwcc,115
+imagetk-0.1.2.dist-info/top_level.txt,sha256=dQuUBX1EDAbBwlvHSaspdgPVGxswjgiOXy6oroW07Tg,25
+imagetk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imagetk/__pycache__/__init__.cpython-311.pyc,,
+imagetk/assess.cpython-311-darwin.so,sha256=Uo7aHKrVd_vgbKoLefKQhJjuPdMBQrORpmEHSk5fyAI,182016
+imagetk/edge.cpython-311-darwin.so,sha256=A-6AOzOkTR-Aa7bWqEvorjRw1e-dpQ1qpD89DwS8YB4,335904
+imagetk/feature.cpython-311-darwin.so,sha256=HZmyM4ZGtA4f5foYF93plUegHDqD4wQ_Zgs2wPVlbMU,389424
+imagetk/kernel.cpython-311-darwin.so,sha256=46Ji8OIGZxVEJseH3EBvvwE3oV11Zs5xmtaw1-u7ZJ0,148112
+imagetk/process.cpython-311-darwin.so,sha256=h9GymwDsvnNtTxlH1OfIaWkiZ0OEmpeBte30ah6xxd0,334912
+imagetk/threshold.cpython-311-darwin.so,sha256=d3GIhVYQUCW-PLEIuob8ddxKLB6B0AMLjxh_8BFlu1o,147360

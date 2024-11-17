@@ -1,0 +1,8 @@
+requests
+pyyaml
+flask
+mangum
+asgiref
+discord-py-interactions
+pymongo
+bson

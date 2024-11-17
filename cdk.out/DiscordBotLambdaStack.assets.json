@@ -1,0 +1,33 @@
+{
+  "version": "31.0.0",
+  "files": {
+    "cf872c4236b40b0e100977da53a32a9ffb95a183bc2f6724621cfe1907ea6825": {
+      "source": {
+        "path": "DiscordBotLambdaStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "cf872c4236b40b0e100977da53a32a9ffb95a183bc2f6724621cfe1907ea6825.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {
+    "9fc6dd6ae14229e966a919ea763a88ffe1a44424b70f70e5e8bb10dbd3dd2823": {
+      "source": {
+        "directory": "asset.9fc6dd6ae14229e966a919ea763a88ffe1a44424b70f70e5e8bb10dbd3dd2823",
+        "platform": "linux/arm64"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "repositoryName": "cdk-hnb659fds-container-assets-${AWS::AccountId}-${AWS::Region}",
+          "imageTag": "9fc6dd6ae14229e966a919ea763a88ffe1a44424b70f70e5e8bb10dbd3dd2823",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-image-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  }
+}
